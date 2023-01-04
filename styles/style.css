@@ -1,0 +1,17 @@
+.video{
+  width: 500px;
+}
+
+video{
+  width: 100%;
+}
+
+.media{
+  display:none;
+}
+
+.media .video,
+.media .audio,
+.media .iframe,{
+  flex: 1;
+}
